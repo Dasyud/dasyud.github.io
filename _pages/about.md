@@ -2,22 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Microsoft Research</a>
+subtitle: <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'>Microsoft Research</a>
 
 profile:
   align: right
-  image: 
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
   address: >
 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a senior undergraduate student in the [Department of Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani, Hyderabad Campus](https://beta.bits-pilani.ac.in/hyderabad/electrical-electronics-engineering/), pursuing a Bachelor's in Electronics and Instrumentation Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) in the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I am working on AI for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, san Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
+
+I have also been fortunate enough to work with [Dr. Rajesh Kumar Tripathy](https://beta.bits-pilani.ac.in/faculty-overview/?faculty=rajesh-k-tripathy) on Graph Neural Networks and Graph Signal Processing for several biomedical problems. Apart from spending my time doing fun research, I follow some dark fantasy video games and graphic novels.
