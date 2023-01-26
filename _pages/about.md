@@ -20,6 +20,6 @@ I am a senior undergraduate student in the [Department of Electrical and Electro
 
 I am currently a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) in the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I am working on AI for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions.
 
-Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, san Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
+Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, San Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
 
 I have also been fortunate enough to work with [Dr. Rajesh Kumar Tripathy](https://beta.bits-pilani.ac.in/faculty-overview/?faculty=rajesh-k-tripathy) on Graph Neural Networks and Graph Signal Processing for several biomedical problems. Apart from spending my time doing fun research, I follow some dark fantasy video games and graphic novels.
