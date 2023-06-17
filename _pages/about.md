@@ -18,7 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a senior undergraduate student in the [Department of Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani, Hyderabad Campus](https://beta.bits-pilani.ac.in/hyderabad/electrical-electronics-engineering/), pursuing a Bachelor's in Electronics and Instrumentation Engineering.
 
-I am currently a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) in the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I am working on AI for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions.
+My research interests lie at the intersection of AI, information theory, data compression and representation learning. I am currently fascinated by Neural Compression and am looking for research opportunities in this field.
+
+I am a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) in the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I am working on AI for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions.
 
 Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, San Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
 
