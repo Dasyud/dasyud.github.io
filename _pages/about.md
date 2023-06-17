@@ -6,7 +6,7 @@ subtitle: <a href='https://www.microsoft.com/en-us/research/lab/microsoft-resear
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: blah_dp.jpg
   image_circular: true # crops the image to make it circular
   address: >
 
@@ -22,4 +22,4 @@ I am currently a Research Intern at [Microsoft Research, India](https://www.micr
 
 Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, San Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
 
-I have also been fortunate enough to work with [Dr. Rajesh Kumar Tripathy](https://beta.bits-pilani.ac.in/faculty-overview/?faculty=rajesh-k-tripathy) on Graph Neural Networks and Graph Signal Processing for several biomedical problems. Apart from spending my time doing fun research, I follow some dark fantasy video games and graphic novels.
+I have also been fortunate enough to work with [Dr. Rajesh Kumar Tripathy](https://beta.bits-pilani.ac.in/faculty-overview/?faculty=rajesh-k-tripathy) on Graph Neural Networks and Graph Signal Processing for several biomedical problems. Apart from spending my time doing fun research, I play souls-like video games and read mangas.
