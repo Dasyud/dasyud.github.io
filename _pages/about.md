@@ -6,7 +6,7 @@ subtitle: <a href='https://www.microsoft.com/en-us/research/lab/microsoft-resear
 
 profile:
   align: right
-  image: blah_dp.jpg
+  image: dubai_marina.jpg
   image_circular: true # crops the image to make it circular
   address: >
 
