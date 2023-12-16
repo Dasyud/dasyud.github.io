@@ -16,12 +16,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior undergraduate student in the [Department of Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani, Hyderabad Campus](https://beta.bits-pilani.ac.in/hyderabad/electrical-electronics-engineering/), pursuing a Bachelor's in Electronics and Instrumentation Engineering.
+I am a predoctoral researcher in the [M365 Research](https://www.microsoft.com/en-us/research/group/systems-innovation/) team at Microsoft.
 
-My research interests lie at the intersection of AI, information theory, data compression and representation learning. I am currently fascinated by Neural Compression and am looking for research opportunities in this field.
+Prior to joining Microsoft, I graduated from the [Birla Institute of Technology and Science, Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/), with a Bachelor's in Electronics and Instrumentation Engineering.
 
-I am a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) in the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I am working on AI for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions.
+My work broadly deals with Reinforcement Learning for sequential decision making in various systems. My interests also lie at the intersection of Artificial Intelligence and Information Theory, and in Geometric Deep Learning.
 
-Prior to this, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, San Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research collaborators during this project.
+I was previously a Research Intern at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), supervised by [Dr. Mayukh Das](https://www.microsoft.com/en-us/research/people/mayukhdas/) at the [M365 Research group](https://www.microsoft.com/en-us/research/group/systems-innovation/). I worked on AI-based decision-making frameworks for Sustainability in Datacenters, focusing on reducing Scope 2 Emissions by reducing CPU power consumption without violating workload requirements.
 
-I have also been fortunate enough to work with [Dr. Rajesh Kumar Tripathy](https://beta.bits-pilani.ac.in/faculty-overview/?faculty=rajesh-k-tripathy) on Graph Neural Networks and Graph Signal Processing for several biomedical problems. Apart from spending my time doing fun research, I play souls-like video games and read mangas.
+In a not-too-distant past, I worked with [Dr. Tzyy-Ping Jung](https://sccn.ucsd.edu/~jung/) from the [University of California, San Diego](https://ucsd.edu/) on detecting students' stress from EEG data using Graph Machine Learning. I worked closely with the lab's Microsoft Research (Redmond) collaborators during this project.
