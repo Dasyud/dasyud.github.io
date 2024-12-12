@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Research Fellow at [Microsoft Research, India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/) in Bangalore, India, and work as a member of the [M365 Research](https://www.microsoft.com/en-us/research/group/systems-innovation/) team.
+I am a Research Fellow at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/) in Bangalore, India, and work as a member of the [M365 Research](https://www.microsoft.com/en-us/research/group/systems-innovation/) team.
 
 I employ reinforcement learning (RL) for complex sequential decision making problems in various systems, such as Microsoft Teams (RTC) and Azure, and solve the research challenges involved.
 
@@ -28,4 +28,4 @@ Previously, I was a Research Intern at [Microsoft Research, India](https://www.m
 
 Before joining Microsoft, I did my bachelors at [Birla Institute of Technology and Science, Pilani](https://www.bits-pilani.ac.in/hyderabad/).
 
-** I will be applying to PhD programs to start in Fall 2025! **
+**I will be applying to PhD programs to start in Fall 2025!**

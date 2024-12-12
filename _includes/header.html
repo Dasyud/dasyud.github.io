@@ -62,6 +62,10 @@
               </li>
               {%- endif %}
 
+              <li class="nav-item">
+                <a class="nav-link" href="https://princeton-rl.github.io/">lab</a>
+              </li>
+
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
@@ -94,8 +98,17 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
 
+              <!--Custom header links to external sites-->
+              
+             
+              <li class="nav-item">
+                <a class="nav-link" href="https://scholar.google.com/citations?user=DiBVENwAAAAJ">publications</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+              <!-- end custom stuff-->
+
+              {%- if site.enable_darkmode %}
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">

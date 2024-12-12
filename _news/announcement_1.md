@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[New paper](https://www.microsoft.com/en-us/research/publication/intelligent-overclocking-for-improved-cloud-efficiency/) on intelligent overclocking of datacenters.
+Paper accepted at AIOps Workshop @ ASPLOS 2024 - [Intelligent Overclocking for Improved Cloud Efficiency](https://www.microsoft.com/en-us/research/publication/intelligent-overclocking-for-improved-cloud-efficiency/).
