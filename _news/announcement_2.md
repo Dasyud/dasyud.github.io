@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[New paper](https://arxiv.org/abs/2411.06815) on adaptation to exogenous disturbances in environments.
+[New paper](https://arxiv.org/abs/2411.06815) on post-deployment policy adaptation to exogenous disturbances in environments.
