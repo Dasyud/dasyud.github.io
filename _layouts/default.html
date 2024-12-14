@@ -3,12 +3,22 @@
 
   <!-- Head -->
   <head>
+    <meta name="google-site-verification" content="au2wi-knoPw9lWCSEoflw_b0f4Dn37_OIlrBONCLKdc" />
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-    <meta name="google-site-verification" content="au2wi-knoPw9lWCSEoflw_b0f4Dn37_OIlrBONCLKdc" />
   {%- endif -%}
   {% include head.html %}
   </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SXNS8ZP02"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0SXNS8ZP02');
+  </script>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
