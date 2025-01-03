@@ -7,7 +7,7 @@ first_name: Aditya
 middle_name:
 last_name: Soni
 email: adityasoni25@gmail.com
-description: This is Aditya Soni's personal website where he highlights his research profile and publications. > # the ">" symbol means to ignore newlines until "footer_text:"
+description: This is Aditya Soni's personal website where he highlights his research profile and publications. # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
   

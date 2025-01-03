@@ -6,7 +6,7 @@ subtitle: Research Fellow at <a href='https://www.microsoft.com/en-us/research/l
 
 profile:
   align: right
-  image: monastery.jpg
+  image: baku.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
