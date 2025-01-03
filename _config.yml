@@ -7,11 +7,11 @@ first_name: Aditya
 middle_name:
 last_name: Soni
 email: adityasoni25@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: This is Aditya Soni's personal website where he highlights his research profile and publications. > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
   
-keywords: aditya, soni, reinforcement learning, microsoft, research, phd  # add your own keywords or leave empty
+keywords: aditya, soni, reinforcement learning, microsoft, research, phd, website, github  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎄  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
