@@ -1,8 +1,8 @@
 ---
 title: The need for better environments to understand learning
-draft: false
+draft: true
 tags:
   - reinforcement-learning
 ---
- 
-The rest of your content lives here. You can use **Markdown** here :)
+
+I think Atari is a terrible benchmark for RL algorithms.

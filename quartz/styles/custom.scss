@@ -1,6 +1,5 @@
 @use "./base.scss";
 
-// put your custom CSS here!
 pre.poetry {
   font-size: 1.2rem;
   font-family: biro_script_standardRgus;
@@ -13,3 +12,11 @@ pre.poetry {
 .content-meta {
   font-family: biro_script_standardRgus, var(--bodyFont);
 }
+
+body[data-slug="index"] .page-header h1.article-title {
+  font-size: 2.5rem !important;
+}
+
+// a.external .external-icon {
+//   display: none;
+// }
