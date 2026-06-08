@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 pre.poetry {
   font-size: 1.2rem;
@@ -13,10 +14,67 @@ pre.poetry {
   font-family: biro_script_standardRgus, var(--bodyFont);
 }
 
-body[data-slug="index"] .page-header h1.article-title {
-  font-size: 2.5rem !important;
+// site-wide: hide the now-empty footer (contact links live in the homepage hero instead)
+footer {
+  display: none;
 }
 
-// a.external .external-icon {
-//   display: none;
-// }
+body[data-slug="index"] {
+  // hide the Quartz-rendered article title; the h1 lives inside the .hero block below
+  .page-header .article-title {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  .hero-photo {
+    flex: 0 0 auto; // never grow, never shrink — preserves circle at all widths
+
+    img {
+      width: 180px;
+      height: 180px;
+      max-width: none; // override Quartz base img { max-width: 100% } that was causing ellipse
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0;
+    }
+  }
+
+  .hero-text {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.5rem;
+    }
+
+    > :first-child {
+      margin-top: 0;
+    }
+  }
+
+  @media all and #{$mobile} {
+    .hero {
+      flex-direction: column;
+      align-items: flex-start; // Kevin Roice pattern: photo + name + bio all on the same left edge
+      gap: 1.25rem;
+    }
+
+    .hero-photo img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  }
+}

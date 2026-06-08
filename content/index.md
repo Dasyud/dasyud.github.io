@@ -2,13 +2,22 @@
 title: Aditya Soni
 ---
 
-I'm an MSc student at the University of Alberta, supervised by 
-[Prof. Martha White](https://webdocs.cs.ualberta.ca/~whitem/). 
-I work on **reinforcement learning**.
+<div class="hero">
 
-Previously, I was a predoctoral fellow at [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), 
-working with the M365 Research team, where I worked on applying reinforcement learning to improve systems.
+<div class="hero-photo">
+<img src="/me.webp" alt="Aditya Soni" />
+</div>
 
-→ [Writing](/posts)  
-<!-- → [GitHub](https://github.com/dasyud)  
-→ [Twitter](https://twitter.com/aditya_soni25) -->
+<div class="hero-text">
+
+# Aditya Soni
+
+I'm an M.Sc. student at the [RLAI lab](http://rlai.ualberta.ca) at the University of Alberta, advised by [Prof. Martha White](https://webdocs.cs.ualberta.ca/~whitem/). My research focuses on **reinforcement learning** — specifically, designing robust reinforcement learning algorithms.
+
+Previously, I was a predoctoral fellow at [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), working with the M365 Research team, where I worked on applying reinforcement learning to improve systems such as Microsoft Teams and Azure datacenters.
+
+[Email](mailto:adityasoni25@gmail.com) | [CV](/cv.pdf) | [GitHub](https://github.com/dasyud) | [Twitter](https://twitter.com/aditya_soni25) | [LinkedIn](https://in.linkedin.com/in/adityasoni1225)
+
+</div>
+
+</div>

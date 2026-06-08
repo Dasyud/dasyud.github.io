@@ -1,33 +1,11 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { SimpleSlug } from "./quartz/util/path"
-
-const recentNotes = [
-  Component.RecentNotes({
-    title: "Recent Writing",
-    limit: 4,
-    filter: (f) =>
-      f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-    linkToMore: "posts/" as SimpleSlug,
-  }),
-  // Component.RecentNotes({
-  //   title: "Recent Notes",
-  //   limit: 2,
-  //   filter: (f) => f.slug!.startsWith("thoughts/"),
-  //   linkToMore: "thoughts/" as SimpleSlug,
-  // }),
-]
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/dasyud",
-      Twitter: "https://twitter.com/aditya_soni25",
-    },
-  }),
+  header: [Component.Darkmode()],
+  afterBody: [],
+  footer: Component.Footer({ links: {} }),
 }
 
 export const defaultContentPageLayout: PageLayout = {
@@ -44,33 +22,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: true },
-        { Component: Component.Darkmode() },
-      ],
+    Component.ConditionalRender({
+      component: Component.PageTitle(),
+      condition: (page) => page.fileData.slug !== "index",
     }),
-    ...recentNotes.map((c) => Component.DesktopOnly(c)),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: true },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    ...recentNotes.map((c) => Component.DesktopOnly(c)),
-  ],
+  left: [Component.PageTitle()],
   right: [],
 }
