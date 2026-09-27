@@ -27,7 +27,6 @@ Previously, I was a predoctoral fellow at [Microsoft Research India](https://www
 
 <ul class="cv-list">
 <li><span><strong>University of Alberta</strong>, M.Sc. in Computing Science</span><span class="when">2025 – now</span></li>
-<li><span><strong>University of Alberta</strong>, Teaching Assistant, Machine Learning II</span><span class="when">2026</span></li>
 <li><span><strong>Microsoft Research India</strong>, Research Fellow</span><span class="when">2023 – 2025</span></li>
 <li><span><strong>Microsoft Research India</strong>, Research Intern</span><span class="when">2023</span></li>
 <li><span><strong>BITS Pilani, Hyderabad</strong>, B.E. in Electronics and Instrumentation</span><span class="when">2019 – 2023</span></li>
