@@ -1,9 +1,5 @@
 ---
-title: The Gray Fog
+title: Blog
 ---
 
-Notes on AI research, learning, and whatever else I'm thinking about. Browse by [topic](/tags).
-
-```poetry
-- Dasyud :)
-```
+Notes on AI research, learning, and whatever else I'm thinking about.
