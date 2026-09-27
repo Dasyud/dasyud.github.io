@@ -9,9 +9,45 @@ pre.poetry {
   position: unset;
 }
 
+// type: 18px base, headings on a 1.25 scale (h3 1.25rem, h2 1.5625rem, title 2rem)
+html {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  font-weight: 500;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+h1,
+.article-title {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5625rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+tbody,
+li,
+p {
+  line-height: 1.55;
+}
+
 .meta,
 .content-meta {
-  font-family: biro_script_standardRgus, var(--bodyFont);
+  font-family: var(--headerFont);
 }
 
 // site-wide: hide the now-empty footer (contact links live in the homepage hero instead)

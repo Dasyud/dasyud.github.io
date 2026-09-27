@@ -19,7 +19,7 @@ main {
   --color-prettylights-syntax-carriage-return-bg: #b62324;
   --color-prettylights-syntax-string-regexp: #7ee787;
   --color-prettylights-syntax-markup-list: #f2cc60;
-  --color-prettylights-syntax-markup-heading: #7c84e8;
+  --color-prettylights-syntax-markup-heading: #ff7563;
   --color-prettylights-syntax-markup-italic: #c9d1d9;
   --color-prettylights-syntax-markup-bold: #c9d1d9;
   --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
@@ -34,46 +34,46 @@ main {
   --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
   --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
-  --color-btn-text: #d3d6ff; /* --darkgray */
-  --color-btn-bg: #0f1437; /* --light */
+  --color-btn-text: #dcd6d3; /* --darkgray */
+  --color-btn-bg: #161312; /* --light */
   --color-btn-border: rgb(238 238 238 / 10%); /* --dark */
   --color-btn-shadow: 0 0 transparent;
   --color-btn-inset-shadow: 0 0 transparent;
-  --color-btn-hover-bg: #2a3170;
+  --color-btn-hover-bg: #3a3431;
   --color-btn-hover-border: #8b949e;
   --color-btn-active-bg: hsl(212deg 12% 18% / 100%);
   --color-btn-active-border: #6e7681;
-  --color-btn-selected-bg: #1f2657;
+  --color-btn-selected-bg: #2d2826;
   --color-btn-primary-text: #fff;
-  --color-btn-primary-bg: #434edf; /* --secondary (light mode) */
+  --color-btn-primary-bg: #d93a26; /* --secondary (light mode) */
   --color-btn-primary-border: rgb(238 238 238 / 10%); /* --dark */
   --color-btn-primary-shadow: 0 0 transparent;
   --color-btn-primary-inset-shadow: 0 0 transparent;
-  --color-btn-primary-hover-bg: #5a64e6; /* --secondary, lightened */
+  --color-btn-primary-hover-bg: #e8543f; /* --secondary, lightened */
   --color-btn-primary-hover-border: rgb(238 238 238 / 10%); /* --dark */
-  --color-btn-primary-selected-bg: #5a64e6; /* --secondary, lightened */
+  --color-btn-primary-selected-bg: #e8543f; /* --secondary, lightened */
   --color-btn-primary-selected-shadow: 0 0 transparent;
   --color-btn-primary-disabled-text: rgba(33, 32, 32, 0.5);
-  --color-btn-primary-disabled-bg: rgb(67 78 223 / 50%);
+  --color-btn-primary-disabled-bg: rgb(217 58 38 / 50%);
   --color-btn-primary-disabled-border: rgb(240 246 252 / 10%);
   --color-action-list-item-default-hover-bg: rgb(177 186 196 / 12%);
   --color-segmented-control-bg: rgb(110 118 129 / 10%);
-  --color-segmented-control-button-bg: #0f1437;
+  --color-segmented-control-button-bg: #161312;
   --color-segmented-control-button-selected-border: #6e7681;
-  --color-fg-default: #eeeeee; /* --dark */
-  --color-fg-muted: #d3d6ff; /* --darkgray */
-  --color-fg-subtle: #d3d6ff; /* --darkgray */
-  --color-canvas-default: #0f1437;
-  --color-canvas-overlay: #1f2657;
-  --color-canvas-inset: #0a0e2a;
-  --color-canvas-subtle: #1f2657;
-  --color-border-default: #2a3170;
-  --color-border-muted: #1f2657;
+  --color-fg-default: #f3efed; /* --dark */
+  --color-fg-muted: #dcd6d3; /* --darkgray */
+  --color-fg-subtle: #dcd6d3; /* --darkgray */
+  --color-canvas-default: #161312;
+  --color-canvas-overlay: #2d2826;
+  --color-canvas-inset: #0d0b0a;
+  --color-canvas-subtle: #2d2826;
+  --color-border-default: #3a3431;
+  --color-border-muted: #2d2826;
   --color-neutral-muted: rgb(110 118 129 / 40%);
-  --color-accent-fg: #7c84e8;
-  --color-accent-emphasis: #7c84e8;
-  --color-accent-muted: rgb(124 132 232 / 40%);
-  --color-accent-subtle: rgb(124 132 232 / 10%);
+  --color-accent-fg: #ff7563;
+  --color-accent-emphasis: #ff7563;
+  --color-accent-muted: rgb(255 117 99 / 40%);
+  --color-accent-subtle: rgb(255 117 99 / 10%);
   --color-success-fg: #3fb950;
   --color-attention-fg: #d29922;
   --color-attention-muted: rgb(187 128 9 / 40%);
@@ -82,8 +82,8 @@ main {
   --color-danger-muted: rgb(248 81 73 / 40%);
   --color-danger-subtle: rgb(248 81 73 / 10%);
   --color-primer-shadow-inset: 0 0 transparent;
-  --color-scale-gray-7: #1f2657;
-  --color-scale-blue-8: #2a3170;
+  --color-scale-gray-7: #2d2826;
+  --color-scale-blue-8: #3a3431;
 
   /*! Extensions from @primer/css/alerts/flash.scss */
   --color-social-reaction-bg-hover: var(--color-scale-gray-7);
