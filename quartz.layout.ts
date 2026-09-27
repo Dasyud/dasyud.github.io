@@ -1,8 +1,9 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { isPost } from "./quartz/components/WritingList"
 
 // giscus comments, backed by GitHub Discussions on the site repo.
-// Get the IDs from https://giscus.app (or `gh api graphql`); comments stay hidden until both are set.
+// IDs come from https://giscus.app (or `gh api graphql`).
 const giscus = {
   repo: "Dasyud/dasyud.github.io",
   repoId: "R_kgDOQyRmdw",
@@ -15,6 +16,10 @@ export const sharedPageComponents: SharedLayout = {
   header: [Component.Darkmode()],
   afterBody: [
     Component.ConditionalRender({
+      component: Component.WritingList(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
       component: Component.Comments({
         provider: "giscus",
         options: {
@@ -25,11 +30,7 @@ export const sharedPageComponents: SharedLayout = {
           inputPosition: "bottom",
         },
       }),
-      condition: (page) =>
-        giscus.repoId !== "" &&
-        giscus.categoryId !== "" &&
-        page.fileData.slug!.startsWith("posts/") &&
-        page.fileData.slug !== "posts/index",
+      condition: (page) => isPost(page.fileData.slug),
     }),
   ],
   footer: Component.Footer({ links: {} }),

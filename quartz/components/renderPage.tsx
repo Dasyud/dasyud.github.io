@@ -1,4 +1,5 @@
 import { render } from "preact-render-to-string"
+import { isPost, postKind } from "./WritingList"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
@@ -262,7 +263,10 @@ export function renderPage(
   const doc = (
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
-      <body data-slug={slug}>
+      <body
+        data-slug={slug}
+        data-kind={isPost(slug) ? postKind(componentData.fileData) : undefined}
+      >
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
