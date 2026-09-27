@@ -1,10 +1,37 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// giscus comments, backed by GitHub Discussions on the site repo.
+// Get the IDs from https://giscus.app (or `gh api graphql`); comments stay hidden until both are set.
+const giscus = {
+  repo: "Dasyud/dasyud.github.io",
+  repoId: "R_kgDOQyRmdw",
+  category: "Announcements",
+  categoryId: "DIC_kwDOQyRmd84DGfYg",
+} as const
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Darkmode()],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.Comments({
+        provider: "giscus",
+        options: {
+          ...giscus,
+          mapping: "pathname",
+          strict: false,
+          reactionsEnabled: true,
+          inputPosition: "bottom",
+        },
+      }),
+      condition: (page) =>
+        giscus.repoId !== "" &&
+        giscus.categoryId !== "" &&
+        page.fileData.slug!.startsWith("posts/") &&
+        page.fileData.slug !== "posts/index",
+    }),
+  ],
   footer: Component.Footer({ links: {} }),
 }
 

@@ -2,6 +2,10 @@
 title: Effective Learning
 date: 2026-01-02
 draft: false
+tags:
+  - learning
+aliases:
+  - posts/Effective-learning
 ---
 
 ```poetry
