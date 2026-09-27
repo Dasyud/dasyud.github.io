@@ -20,7 +20,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "dasyud.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

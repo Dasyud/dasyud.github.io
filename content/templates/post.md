@@ -1,6 +1,6 @@
 ---
 title: Post title
-date: YYYY-MM-DD
+date: {{date:YYYY-MM-DD}}
 draft: true
 kind: writing # or: research (listed under Research notes, set in IBM Plex Sans)
 tags:
