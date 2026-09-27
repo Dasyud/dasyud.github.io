@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#ff7563" stroke="#ff7563" stroke-linecap="butt">
+  <!-- square sun: diamond core, four straight rays, four diagonal rays (32x32 grid) -->
+  <polygon stroke="none" points="16,7 25,16 16,25 7,16"/>
+  <rect stroke="none" x="14" y="0" width="4" height="5"/>
+  <rect stroke="none" x="14" y="27" width="4" height="5"/>
+  <rect stroke="none" x="0" y="14" width="5" height="4"/>
+  <rect stroke="none" x="27" y="14" width="5" height="4"/>
+  <line x1="4" y1="4" x2="9" y2="9" stroke-width="3.4"/>
+  <line x1="28" y1="4" x2="23" y2="9" stroke-width="3.4"/>
+  <line x1="4" y1="28" x2="9" y2="23" stroke-width="3.4"/>
+  <line x1="28" y1="28" x2="23" y2="23" stroke-width="3.4"/>
+</svg>
